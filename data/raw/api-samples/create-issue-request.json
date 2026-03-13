@@ -1,0 +1,23 @@
+{
+  "project": {
+    "id": "0-0"
+  },
+  "summary": "Sample onboarding request",
+  "description": "Provision accounts and starter tasks for a new employee.",
+  "customFields": [
+    {
+      "name": "Priority",
+      "$type": "SingleEnumIssueCustomField",
+      "value": {
+        "name": "Major"
+      }
+    },
+    {
+      "name": "Assignee",
+      "$type": "SingleUserIssueCustomField",
+      "value": {
+        "login": "jane.doe"
+      }
+    }
+  ]
+}

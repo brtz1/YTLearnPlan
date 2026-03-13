@@ -1,0 +1,18 @@
+{
+  "idReadable": "SP-42",
+  "summary": "Sample onboarding request",
+  "customFields": [
+    {
+      "name": "Priority",
+      "value": {
+        "name": "Major"
+      }
+    },
+    {
+      "name": "Assignee",
+      "value": {
+        "login": "jane.doe"
+      }
+    }
+  ]
+}

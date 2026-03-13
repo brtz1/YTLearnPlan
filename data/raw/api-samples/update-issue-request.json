@@ -1,0 +1,11 @@
+{
+  "customFields": [
+    {
+      "name": "Priority",
+      "$type": "SingleEnumIssueCustomField",
+      "value": {
+        "name": "Critical"
+      }
+    }
+  ]
+}
